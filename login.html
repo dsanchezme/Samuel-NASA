@@ -10,7 +10,7 @@
     <link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/styles.css" />
     <link rel="icon" href="https://cdn.iconscout.com/icon/free/png-512/nasa-282190.png">
-    <script src="/js/javaScript.js"></script>
+    <script src="js/javaScript.js"></script>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -24,7 +24,8 @@
     <section class="container ">
         <div class="background-image"></div>
         <div class="login-form">
-            <form method="post" role="login" action="" onsubmit="return redirectTo('index.html')">
+            <!-- <form method="post" role="login" action="" onsubmit="return redirectTo('index.html')"> -->
+            <form method="POST" action="" role="login" onsubmit="return redirectTo('index.html')">
                 <img src="assets/images/logoNASA.png" class="img-responsive" alt="NASA logo" />
                 <input type="email" name="email" placeholder="Email" required class="form-control input-lg" />
                 <input type="password" name="password" placeholder="Password" required class="form-control input-lg" />
